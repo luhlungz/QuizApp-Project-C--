@@ -1,0 +1,62 @@
+  QuizAppProject.DashBoard.resources - Embedded, ContainedInManifestFile, 
+  QuizAppProject.Easy.resources - Embedded, ContainedInManifestFile, 
+  QuizAppProject.Hard.resources - Embedded, ContainedInManifestFile, 
+  QuizAppProject.Login.resources - Embedded, ContainedInManifestFile, 
+  QuizAppProject.Medium.resources - Embedded, ContainedInManifestFile, 
+  QuizAppProject.Registration.resources - Embedded, ContainedInManifestFile, 
+  QuizAppProject.ReviewPage.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly QuizApp_Project, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class QuizAppProject.ReviewPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class QuizAppProject.QuizQuestion`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String prompt : Public
+    System.String[] options : Public
+    System.String correct_answer : Public
+Class QuizAppProject.QuizGame`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetScore(): PrivateScope, Public, HideBySig
+    GetQuestions(): PrivateScope, Public, HideBySig
+    LoadQuestionsFromFile(String): PrivateScope, Public, HideBySig
+    ShowQuestion(Button, ProgressBar, Label, Label, RadioButton, RadioButton, RadioButton, RadioButton): PrivateScope, Public, HideBySig
+    CheckAnswer(String, RadioButton, RadioButton, RadioButton, RadioButton): PrivateScope, Public, HideBySig
+    ShowScore(): PrivateScope, Public, HideBySig
+    UpdateProgressBar(ProgressBar): PrivateScope, Public, HideBySig
+    ShuffleQuestions(): PrivateScope, Public, HideBySig
+Class QuizAppProject.Easy: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class QuizAppProject.Medium: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class QuizAppProject.Hard: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class QuizAppProject.DashBoard: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class QuizAppProject.Registration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class QuizAppProject.Login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

@@ -1,0 +1,19 @@
+Which of the following is NOT a valid programming paradigm?|Procedural,Functional,Logical,Iterative|Iterative
+Which sorting algorithm has a worst-case time complexity of O(n^2)?|Merge Sort,Quick Sort,Heap Sort,Insertion Sort|Insertion Sort
+What is the purpose of the SQL language?|Storing and retrieving data from a relational database,Writing server-side scripts for web applications,Creating interactive user interfaces,Defining the structure of HTML documents|Storing and retrieving data from a relational database
+Which of the following is NOT a valid HTTP request method?|GET,POST,PUSH,DELETE|PUSH
+Which data structure is typically used to implement a FIFO (First In, First Out) behavior?|Stack,Queue,Heap,Linked List|Queue
+Which of the following is NOT a valid type of machine learning algorithm?|Supervised Learning,Unsupervised Learning,Reinforcement Learning,Interactive Learning|Supervised Learning
+What is the purpose of a constructor in object-oriented programming?|To destroy objects after they are no longer needed,To initialize the state of an object when it is created,To define private methods within a class,To implement inheritance between classes|To destroy objects after they are no longer needed
+Which of the following is NOT a valid HTTP status code?|200,404,503,1000|1000
+What is the role of a compiler in the software development process?|To translate high-level code into machine code,To debug errors in source code,To manage version control of software projects,To optimize database queries|To translate high-level code into machine code
+In object-oriented programming, inheritance allows a class to inherit properties and methods from another class.|True,False|True
+Dynamic programming is a method for solving problems by breaking them down into simpler subproblems and solving each subproblem only once.|True,False|True
+IPv6 addresses are shorter than IPv4 addresses.|True,False|False
+A binary search tree (BST) guarantees constant-time lookup for any element.|True,False|False
+HTML is a programming language used for creating web pages.|True,False|False
+Machine learning algorithms can learn from data without being explicitly programmed.|True,False|True
+Big O notation describes the worst-case scenario for the performance of an algorithm.|True,False|True
+HTTPS stands for Hypertext Transfer Protocol Secure and provides encrypted communication over a computer network.|True,False|True
+Agile software development prioritizes extensive documentation and comprehensive plans.|True,False|False
+Python is a compiled language.|True,False|False
