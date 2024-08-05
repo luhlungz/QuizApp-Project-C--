@@ -180,46 +180,7 @@ namespace QuizAppProject {
 }
 
 
-/*void CheckAnswer(String^ selectedAnswer) {
-    if (currentQuestionIndex >= 0 && currentQuestionIndex < questions->Count) {
-        // Check if currentQuestionIndex is within the valid range
-        QuizQuestion<T>^ currentQuestion = questions[currentQuestionIndex];
-        if (currentQuestion != nullptr) {
-            // Check if currentQuestion is not null
-            if (selectedAnswer != nullptr && selectedAnswer->Length > 0) {
-                // Check if selectedAnswer is not null and has length greater than 0
-                if (currentQuestion->correct_answer != nullptr) {
-                    // Convert correct answer to string if it's not null
-                    String^ correctAnswer = currentQuestion->correct_answer->ToString();
 
-                    // Log or show message boxes for debugging
-                    MessageBox::Show("Selected Answer: " + selectedAnswer + "\nCorrect Answer: " + correctAnswer);
-
-                    // Compare selected answer with correct answer
-                    if (selectedAnswer->Equals(correctAnswer, StringComparison::OrdinalIgnoreCase)) {
-                        MessageBox::Show("Correct!");
-                        score++;
-                    }
-                    else {
-                        MessageBox::Show("Incorrect!");
-                    }
-                }
-                else {
-                    MessageBox::Show("Error: Correct answer is null.");
-                }
-            }
-            else {
-                MessageBox::Show("Error: Selected answer is null or empty.");
-            }
-        }
-        else {
-            MessageBox::Show("Error: Current question is null.");
-        }
-    }
-    else {
-        MessageBox::Show("Error: Invalid question index.");
-    }
-}*/
 	
 
 
