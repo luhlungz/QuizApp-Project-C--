@@ -1,0 +1,2 @@
+# Example format only. Do not commit real usernames or passwords.
+example-user,replace-with-a-secure-local-password
